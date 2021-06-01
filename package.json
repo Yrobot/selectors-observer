@@ -1,0 +1,35 @@
+{
+  "name": "selectors-observer",
+  "version": "1.0.0",
+  "description": "可以快速获取用户正在阅读内容的锚点的工具库，框架通用",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "NODE_ENV=production && rm -rf lib && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yrobot/selectors-observer.git"
+  },
+  "keywords": [
+    "yrobot",
+    "selector",
+    "observer",
+    "anchor"
+  ],
+  "author": "yrobot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yrobot/selectors-observer/issues"
+  },
+  "homepage": "https://github.com/Yrobot/selectors-observer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "rollup": "^2.50.5",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
