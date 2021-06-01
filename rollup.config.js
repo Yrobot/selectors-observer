@@ -9,6 +9,12 @@ export default {
       format: 'es',
       sourcemap: false,
     },
+    {
+      file: 'lib/index.umd.js',
+      format: 'umd',
+      name: 'SelectorsObserver',
+      sourcemap: false,
+    },
   ],
   plugins: [
     babel({
